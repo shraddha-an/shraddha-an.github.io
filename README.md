@@ -1,7 +1,8 @@
 ## Data Science Portfolio Website
 
 This project displays my projects, skills and links to other professional media on a GitHub Pages site.
-Visit my website at [shraddha-an.github.io](https://shraddha-an.github.io/)
+
+## Website: [shraddha-an.github.io](https://shraddha-an.github.io/)
 
 ## HTML Theme by HTML5UP
 
