@@ -4,7 +4,7 @@
 		<title>Data Science Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="main.css" />
+		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body class="is-preload">
 
@@ -75,51 +75,76 @@
 							</header>
 
 							<p>Featured here are some of my projects in Data Analysis, NLP & Time-Series Forecasting.</p>
+                            
+                            <!-- 1st Project  -->
+                            <div class="row">                                
+                                <div class="img_lefts"><a href="https://towardsdatascience.com/simple-multivariate-time-series-forecasting-7fa0e05579b2?source=friends_link&sk=e192cf451392eac916fe746cdf3b8a2c" target="_blank">
+                                    <img src="images/analog_time.jpg" alt="Analog Time Lapse"/></a>	                                        
+                                </div>
 
-							 <div class="row"> 
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="https://towardsdatascience.com/simple-multivariate-time-series-forecasting-7fa0e05579b2?source=friends_link&sk=e192cf451392eac916fe746cdf3b8a2c" 
-										 target="_blank"  class="image fit">
-										<img src="images/analog_time.jpg" height="195" alt="Analog Time Lapse"/></a>
-										<header>
-											<a href="https://towardsdatascience.com/simple-multivariate-time-series-forecasting-7fa0e05579b2?source=friends_link&sk=e192cf451392eac916fe746cdf3b8a2c" 
-										 target="_blank"><h3>Multivariate Time-Series Forecast</h3></a>
-										</header>
-										<p>In this project, I build a <strong>Vector Autoregression Model</strong> to forecast future values of a multivariate time-series.
-										</p>
-									</article>
-					
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="https://medium.com/swlh/text-classification-using-tf-idf-7404e75565b8?source=friends_link&sk=c2be0898d36bc48c4a54c9062c471ca1" target="_blank" class="image fit">
-										<img src="images/tf-idf.jpg" height="195" alt="Through the reading glasses" /></a>
-										<header>
-											<a href="https://medium.com/swlh/text-classification-using-tf-idf-7404e75565b8?source=friends_link&sk=c2be0898d36bc48c4a54c9062c471ca1" target="_blank"><h3>TF-IDF Matrix for Text Classification</h3></a>
-										</header>
-                                        <p>I developed a TF-IDF matrix to classify user reviews of different products.</p>
-									</article>
-								</div>
-                                <br/>
-                                <br/>
-<!--
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="https://medium.com/analytics-vidhya/simple-sentiment-analysis-in-python-nysk-dataset-de17cd0efbe1?source=friends_link&sk=5f14258018c87820231e602faee17cbc" target="_blank" class="image fit">
-										<img src="images/nysk.jpg" height="195" alt="" /></a>
-										<header>
-											<a href="https://medium.com/analytics-vidhya/simple-sentiment-analysis-in-python-nysk-dataset-de17cd0efbe1?source=friends_link&sk=5f14258018c87820231e602faee17cbc" target="_blank"><h3>Sentiment Analysis of News Articles in the Strauss-Kahn case</h3></a>
-										</header>
-										<p>Using the NLTK library and VADER sentiment analysis tool, I processed the news articles for sentiment analysis.</p>
-									</article>
-					
-								</div>
--->
-							</div>
+                                <div class="article_right">															
+                                        <a href="https://towardsdatascience.com/simple-multivariate-time-series-forecasting-7fa0e05579b2?source=friends_link&sk=e192cf451392eac916fe746cdf3b8a2c" 
+                                         target="_blank"><h4>Multivariate Time-Series Forecast</h4></a>
+                                    
+                                        <h5><strong>Libraries Used:</strong> Statsmodels, NumPy, Pandas, Scikit-learn, Seaborn.</h5>
+                                    
+                                        <p>In this project, I built a <strong>Vector Autoregression Model</strong> to forecast future values of a multivariate time-series. I performed statistical tests to check the stationarity of the time-series. Using Seaborn, I plotted graphs to show how close my model's forecasts were to the actual values.
+                                        </p>
+                                        
+                                        <a href="https://towardsdatascience.com/simple-multivariate-time-series-forecasting-7fa0e05579b2?source=friends_link&sk=e192cf451392eac916fe746cdf3b8a2c" 
+                                         target="_blank" class="button">Blog</a>
+                                    
+                                        <a href="https://github.com/shraddha-an/time-series-gsr" target="_blank" class="button">Code</a>
+                                </div>
+                            
+                            
+                            </div>
+                            
+                            <!-- 2nd Project  -->
+                                <div class="row">
+                                    <div class="img_lefts">
+                                        <a href="https://medium.com/swlh/text-classification-using-tf-idf-7404e75565b8?source=friends_link&sk=c2be0898d36bc48c4a54c9062c471ca1" target="_blank">
+                                            <img src="images/tf-idf.jpg" alt="Through the reading glasses" /></a>							
+                                    </div>
 
-						</div>
-					</section>
+                                    <div class="article_right">
+                                            <a href="https://medium.com/swlh/text-classification-using-tf-idf-7404e75565b8?source=friends_link&sk=c2be0898d36bc48c4a54c9062c471ca1" target="_blank"><h4>TF-IDF Matrix for Text Classification</h4></a>
+                                            <h5><strong>Libraries Used:</strong> NLTK, WordCloud, Pandas, Scikit-learn, NumPy, Seaborn.</h5>
+                                            <p>I developed a TF-IDF matrix to classify user reviews from Amazon, Yelp and IMDB. A TF-IDF Matrix is a document weighing scheme that assigns weights to words in the text based on their occurence across all documents.</p>
+                                        
+                                        <a href="https://medium.com/swlh/text-classification-using-tf-idf-7404e75565b8?source=friends_link&sk=c2be0898d36bc48c4a54c9062c471ca1" target="_blank" class="button">Blog</a>
+                                        
+                                        
+
+                                    </div>
+                            
+                                </div>
+                                
+															
+								<!--  3rd Project  -->
+								<div class="row">
+									<div class="img_lefts">
+										<a href="https://medium.com/analytics-vidhya/simple-sentiment-analysis-in-python-nysk-dataset-de17cd0efbe1?source=friends_link&sk=5f14258018c87820231e602faee17cbc" target="_blank">
+										<img src="images/nysk.jpg" alt="Screen through th glasses" /></a>
+                                    </div>
+                                    
+                                    <div class="article_right">
+                                        <a href="https://medium.com/analytics-vidhya/simple-sentiment-analysis-in-python-nysk-dataset-de17cd0efbe1?source=friends_link&sk=5f14258018c87820231e602faee17cbc" target="_blank"><h4>Sentiment Analysis of News Articles in the Strauss-Kahn case</h4></a>
+										<h5><strong>Libraries Used:</strong> NLTK, VaDER, Pandas, Scikit-learn, Seaborn, Matplotlib.</h5>
+										<p>Using the NLTK library and VADER sentiment analysis tool, I analyzed multiple news articles covering the sexual abuse allegations against former IMF director, Dominique Strauss-Kahn. I was particularly interested in identifying whether the articles were reporting facts in an objective manner or were solely opinionated and biased in  a subjective fashion.</p>
+                                        
+                                        
+                                        <a href="https://medium.com/analytics-vidhya/simple-sentiment-analysis-in-python-nysk-dataset-de17cd0efbe1?source=friends_link&sk=5f14258018c87820231e602faee17cbc" target="_blank" class="button">Blog</a>
+                                        <a href="https://github.com/shraddha-an/strausskahn-sentiment-analysis" target="_blank" class="button">Code</a>
+                                    
+                                    </div>
+											
+							     </div>
+                            <div style="clear:both;"></div> 
+                        </div>
+                    </section>
+                            
+
                 
                 <!---------------------------------------------------------- Skills -------------------------------------------------------------->
                 <section id="skills" class="twohalf">
@@ -128,13 +153,6 @@
 							<header>
 								<h2><strong>Skills</strong></h2>
 							</header>
-                            <!-- <div class="row mb-4 ftco-animate"> 
-					  		<div class="col grow"><img class="img-fluid" src="images/skills/python.png" title="Python"></div>
-					  		<div class="col grow"><img class="img-fluid" src="images/skills/node.png" title="NodeJS"></div>
-					  		<div class="col grow"><img class="img-fluid" src="images/skills/express.png" title="Express"></div>
-					  		<div class="col grow"><img class="img-fluid" src="images/skills/html.png" title="HTML"></div>
-					  		<div class="col grow"><img class="img-fluid" src="images/skills/css.png" title="CSS"></div>
-					  		<div class="col grow"><img class="img-fluid" src="images/skills/bootstrap.png" title="Bootstrap"></div> -->
                             <div class="icon_skills">
                                 <img src="images/python.png" title="Python" width="80" height="80" style="float: left; width: 10%; margin-right: 4%; margin-left: 25%; margin-bottom: 0.5em;"/>
                                 <img src="images/tensorflow-icon.png" title="TensorFlow" width="80" height="80" style="float: left; width: 10%; margin-right: 4%; margin-bottom: 0.5em;">
