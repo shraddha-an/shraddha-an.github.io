@@ -258,6 +258,47 @@ input, select, textarea {
 
 		}
 
+/* Portfolio */
+
+.img_lefts img {
+    position: relative;
+    display: inline;
+    vertical-align: middle;
+    float: left;
+    margin-right: 15px;
+    width: 70%;
+}
+
+.article_right {
+    position: relative;
+    left: 500px;
+    top: -370px;
+    display: inline;
+    text-align: left;
+    vertical-align: middle;
+    width: 46%;  
+}
+
+.article_right h4 {
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.article_right h5 {
+    padding-bottom: 30px;
+}
+
+.article_right p {
+    font-size: 20px;
+    color: #585858;
+}
+.
+
+.article_right a {
+    margin-bottom: 0;
+}
+
+
 /* Row */
 
 	.row {
